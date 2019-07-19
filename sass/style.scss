@@ -1,0 +1,56 @@
+$font-text: 'Patrick Hand', cursive;
+
+body {
+    margin: 0;
+}
+
+#play-rock, #play-scissors {
+    background-color: #ff9ecd;
+    border-radius: 5px;
+    border: 8px solid #ff9ecd;
+    padding: 45px 100px;
+    font-family: $font-text;
+    font-size: 55px;
+
+
+}
+#play-paper {
+    background-color: white;
+    border-radius: 5px;
+    border: 8px solid white;
+    padding: 45px 100px; 
+    font-family: $font-text;   
+    font-size: 55px;
+}
+
+#buttons {
+    display: flex;
+    justify-content: center;
+    padding: 1% 1%;
+}
+
+.title {
+    text-align: center;
+    font-family: $font-text;
+    font-size: 75px;
+}
+
+.instructions  {
+    font-family: $font-text;
+    padding: 55px;
+    font-size: 25px;
+}
+
+#messages div {
+    font-family: $font-text;
+    text-align: center;
+    font-size: 25px;
+}
+.background {
+    height: 100vh;
+    position: relative;
+    background-image: url('https://images.pexels.com/photos/1831234/pexels-photo-1831234.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}

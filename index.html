@@ -1,19 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8">
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Patrick+Hand&display=swap" rel="stylesheet">
 	<title>Kamień, papier, nożyce</title>
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	<div class="container">
-        <div id="buttons">
-            <button id="play-rock">Kamień</button>
-            <button id="play-paper">Psapier</button>
-            <button id="play-scissors">Nożyce</button>
+    <div class="background">
+        <header class="title">Zagraj w kamień, papier, nożyce!</header>
+        <div class="instructions">
+            <ol>
+                <li>Aby zagrać w grę kliknij na ktoryś z poniższych przycisków: kamień, papier albo nożyce.</li>
+                <li>Gdy klikniesz kroryś z przycisków na dole strony pojawi sie Twoj ruch, oraz ruch komputera i wynik.</li>
+                <li>Powodzenia!</li>
+            </ol>
         </div>
-		<div id="messages"></div>
-	</div>
+        <div class="container">
+            <div id="buttons">
+                <button id="play-rock">Kamień</button>
+                <button id="play-paper">Papier</button>
+                <button id="play-scissors">Nożyce</button>
+            </div>
+            <div id="messages"></div>
+        </div>
+    </div>    
 	<script src="js/functions.js"></script>
 	<script src="js/script.js"></script>
 </body>

@@ -13,6 +13,7 @@ function playGame(playerInput) {
 }
 
 
+
 document.getElementById('play-rock').addEventListener('click', function(){
     printMessage('Guzik "Kamień" został kliknięty');
     playGame(1);
