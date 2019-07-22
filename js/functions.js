@@ -32,18 +32,12 @@ function displayResult(argComputerMove, argPlayerMove){
         || argComputerMove == 'nożyce' && argComputerMove == 'kamień'){
         printMessage('Ty wygrywasz!');
         playerWin += 1;
-    }
-
-    if (argComputerMove == argPlayerMove) {
+    } else if (argComputerMove == argPlayerMove) {
         printMessage('Remis');
-    }
-
-    if (argComputerMove == 'kamień' && argPlayerMove == 'nożyce'
-        || argComputerMove == 'papier' && argPlayerMove == 'kamień'
-        || argComputerMove == 'nożyce' && argPlayerMove == 'papier') {
+    } else {
         printMessage('Tym razem przegrywasz')
         computerWin += 1;
     }
-
+        
     printMessage('Gracz ' +  playerWin + ' - ' + computerWin + ' Komputer');
 }
